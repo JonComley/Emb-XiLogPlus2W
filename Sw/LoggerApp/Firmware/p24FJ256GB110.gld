@@ -34,6 +34,14 @@ __AIVT_BASE = 0x104;
 __DATA_BASE = 0x800;
 __CODE_BASE = 0x1800;
 
+  /* ADDED TO AVOID LINKER WARNINGS
+  */  
+  
+  CRT0_STARTUP(crt0_standard.o)
+  CRT1_STARTUP(crt1_standard.o)
+  OPTIONAL(-lp24FJ256GB110) 
+  
+ 
 
 /*
 ** ==================== Section Map ======================
@@ -96,7 +104,7 @@ SECTIONS
   __CONFIG1 :
   { *(__CONFIG1.sec)    } >config1
 
-
+ 
   /*
   ** =========== Data Memory ===========
   */
