@@ -217,7 +217,7 @@ void MOD_task(void)
 
 	switch(mod_state)
 	{
-	default:
+	default: break;
 	case STATE_IDLE:
 		if (new_day && (RTC_time_sec < 600))
 			new_day = false;

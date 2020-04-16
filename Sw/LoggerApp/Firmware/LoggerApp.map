@@ -63,6 +63,8 @@ Command:
   --library=c-coff \
   -end-group \
 
+
+Optional library libp24FJ256GB110.a not found
 Archive member included because of file (symbol)
 
 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
@@ -2810,6 +2812,7 @@ LOAD Objects\modbus.o
                     0x0104                  __AIVT_BASE = 0x104
                     0x0800                  __DATA_BASE = 0x800
                     0x1800                  __CODE_BASE = 0x1800
+LOAD p24FJ256GB110
 
 .reset            0x000000          0x4
                   0x000000          0x2 SHORT 0x1800 ABSOLUTE (__reset)
