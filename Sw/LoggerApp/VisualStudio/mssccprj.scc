@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[Logger.vcproj]
+SCC_Aux_Path = "\\Nautilus\Sourcesafe"
+SCC_Project_Name = "$/XiLog+ Krohne/Sw/LoggerApp/VisualStudio", QLPFAAAA
+
+[LoggerApp.sln]
+SCC_Aux_Path = "\\Nautilus\Sourcesafe"
+SCC_Project_Name = "$/XiLog+ Krohne/Sw/LoggerApp/VisualStudio", QLPFAAAA

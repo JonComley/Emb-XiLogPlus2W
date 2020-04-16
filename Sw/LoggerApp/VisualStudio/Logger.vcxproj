@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>LoggerApp</ProjectName>
+    <ProjectGuid>{A682567C-F497-4402-AA5D-E9232837A7C0}</ProjectGuid>
+    <RootNamespace>Logger</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29511.113</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Firmware;..\Microchip\Include;C:\Program Files %28x86%29\Microchip\XC16\support\PIC24F\h;C:\Program Files %28x86%29\Microchip\XC16\include;.\;..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Firmware\alm.c" />
+    <ClCompile Include="..\Firmware\Ana.c" />
+    <ClCompile Include="..\Firmware\Cal.c" />
+    <ClCompile Include="..\Firmware\Cfs.c" />
+    <ClCompile Include="..\Firmware\Cmd.c" />
+    <ClCompile Include="..\Firmware\Com.c" />
+    <ClCompile Include="..\Firmware\Cop.c" />
+    <ClCompile Include="..\Firmware\Dig.c" />
+    <ClCompile Include="..\Firmware\Dop.c" />
+    <ClCompile Include="..\Firmware\Frm.c" />
+    <ClCompile Include="..\Firmware\ftp.c" />
+    <ClCompile Include="..\Firmware\gps.c" />
+    <ClCompile Include="..\Firmware\Log.c" />
+    <ClCompile Include="..\Firmware\Mag.c" />
+    <ClCompile Include="..\Firmware\main.c" />
+    <ClCompile Include="..\Firmware\Mdm.c" />
+    <ClCompile Include="..\Firmware\modbus.c" />
+    <ClCompile Include="..\Firmware\Msg.c" />
+    <ClCompile Include="..\Firmware\Pdu.c" />
+    <ClCompile Include="..\Firmware\Pwr.c" />
+    <ClCompile Include="..\Firmware\rtc.c" />
+    <ClCompile Include="..\Firmware\Scf.c" />
+    <ClCompile Include="..\Firmware\Ser.c" />
+    <ClCompile Include="..\Firmware\Slp.c" />
+    <ClCompile Include="..\Firmware\Sns.c" />
+    <ClCompile Include="..\Firmware\Str.c" />
+    <ClCompile Include="..\Firmware\Tim.c" />
+    <ClCompile Include="..\Firmware\tsync.c" />
+    <ClCompile Include="..\Firmware\Usb.c" />
+    <ClCompile Include="..\Firmware\usb_descriptors.c" />
+    <ClCompile Include="..\Microchip\MDD File System\FSIO.c" />
+    <ClCompile Include="..\Microchip\MDD File System\SD-SPI.c" />
+    <ClCompile Include="..\Microchip\Usb\usb_device.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Firmware\alm.h" />
+    <ClInclude Include="..\Firmware\Ana.h" />
+    <ClInclude Include="..\Firmware\Binary.h" />
+    <ClInclude Include="..\Firmware\Cal.h" />
+    <ClInclude Include="..\Firmware\Cfs.h" />
+    <ClInclude Include="..\Firmware\Cmd.h" />
+    <ClInclude Include="..\Firmware\Com.h" />
+    <ClInclude Include="..\Firmware\Cop.h" />
+    <ClInclude Include="..\Firmware\Custom.h" />
+    <ClInclude Include="..\Firmware\Dig.h" />
+    <ClInclude Include="..\Firmware\Dop.h" />
+    <ClInclude Include="..\Firmware\Frm.h" />
+    <ClInclude Include="..\Firmware\FSconfig.h" />
+    <ClInclude Include="..\Firmware\ftp.h" />
+    <ClInclude Include="..\Firmware\gps.h" />
+    <ClInclude Include="..\Firmware\HardwareProfile.h" />
+    <ClInclude Include="..\Firmware\Log.h" />
+    <ClInclude Include="..\Firmware\Mag.h" />
+    <ClInclude Include="..\Firmware\Mdm.h" />
+    <ClInclude Include="..\Firmware\modbus.h" />
+    <ClInclude Include="..\Firmware\Msg.h" />
+    <ClInclude Include="..\Firmware\Pdu.h" />
+    <ClInclude Include="..\Firmware\Pwr.h" />
+    <ClInclude Include="..\Firmware\rtc.h" />
+    <ClInclude Include="..\Firmware\Scf.h" />
+    <ClInclude Include="..\Firmware\Ser.h" />
+    <ClInclude Include="..\Firmware\Slp.h" />
+    <ClInclude Include="..\Firmware\Sns.h" />
+    <ClInclude Include="..\Firmware\Str.h" />
+    <ClInclude Include="..\Firmware\Tim.h" />
+    <ClInclude Include="..\Firmware\tsync.h" />
+    <ClInclude Include="..\Firmware\Usb.h" />
+    <ClInclude Include="..\Firmware\usb_config.h" />
+    <ClInclude Include="..\Firmware\Version.h" />
+    <ClInclude Include="..\Microchip\Include\Compiler.h" />
+    <ClInclude Include="..\Microchip\Include\GenericTypeDefs.h" />
+    <ClInclude Include="..\Microchip\Include\MDD File System\FSDefs.h" />
+    <ClInclude Include="..\Microchip\Include\MDD File System\FSIO.h" />
+    <ClInclude Include="..\Microchip\Include\MDD File System\SD-SPI.h" />
+    <ClInclude Include="..\Microchip\Include\Usb\usb.h" />
+    <ClInclude Include="..\Microchip\Include\Usb\usb_ch9.h" />
+    <ClInclude Include="..\Microchip\Include\Usb\usb_common.h" />
+    <ClInclude Include="..\Microchip\Include\Usb\usb_device.h" />
+    <ClInclude Include="..\Microchip\Include\Usb\usb_hal.h" />
+    <ClInclude Include="..\Microchip\Include\Usb\usb_hal_pic24.h" />
+    <ClInclude Include="C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h\p24fj256gb110.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Firmware\p24FJ256GB110.gld">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
