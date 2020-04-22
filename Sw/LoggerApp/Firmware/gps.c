@@ -23,19 +23,19 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "HardwareProfile.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
-#include "str.h"
-#include "slp.h"
-#include "tim.h"
+#include "Str.h"
+#include "Slp.h"
+#include "Tim.h"
 #include "rtc.h"
 #include "Msg.h"
 #include "Com.h"
 #include "usb.h"
-#include "log.h"
+#include "Log.h"
 
 #define extern
 #include "gps.h"

@@ -32,14 +32,14 @@
 #include <stdio.h>
 #include <float.h>
 
-#include "custom.h"
+#include "Custom.h"
 #include "Compiler.h"
-#include "str.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "MDD File System/FSIO.h"
 #include "Tim.h"
 #include "Cfs.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Msg.h"
 #include "Com.h"
 #include "Slp.h"
@@ -48,8 +48,8 @@
 #include "Ana.h"
 #include "Dop.h"
 #include "Log.h"
-#include "Ftp.h"
-#include "Alm.h"
+#include "ftp.h"
+#include "alm.h"
 #include "Pdu.h"
 #include "usb.h"
 

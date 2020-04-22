@@ -21,15 +21,15 @@
 ** V4.00 220114 PB  if HDW_GPS disable all analogue calls and functions
 */
 
-#include "custom.h"
-#include "compiler.h"
-#include "str.h"
+#include "Custom.h"
+#include "Compiler.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "MDD File System/FSIO.h"
 #include "Cfs.h"
 #include "Msg.h"
 #include "usb.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Com.h"
 #include "Log.h"
 #include "Ana.h"

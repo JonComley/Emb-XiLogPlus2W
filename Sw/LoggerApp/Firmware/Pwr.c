@@ -38,8 +38,8 @@
 **
 */
 
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "HardwareProfile.h"
 #include "MDD File System/FSIO.h"
 #include "Tim.h"
@@ -47,10 +47,10 @@
 #include "Cfs.h"
 #include "rtc.h"
 #include "Log.h"
-#include "ana.h"
+#include "Ana.h"
 #include "Msg.h"
 #include "Com.h"
-#include "Alm.h"
+#include "alm.h"
 #include "Slp.h"
 #include "Usb.h"
 #include "Dig.h"

@@ -11,20 +11,20 @@
 #include <float.h>
 //#include <stdint.h>
 
-#include "custom.h"
+#include "Custom.h"
 #include "Compiler.h"
-#include "str.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "MDD File System/FSIO.h"
 #include "Tim.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Slp.h"
 #include "Log.h"
-#include "Ftp.h"
-#include "Alm.h"
+#include "ftp.h"
+#include "alm.h"
 #include "Pdu.h"
 #include "Usb.h"
-#include "ser.h"
+#include "Ser.h"
 
 #define extern
 #include "modbus.h"

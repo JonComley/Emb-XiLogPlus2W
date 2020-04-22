@@ -39,26 +39,26 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "custom.h"
-#include "compiler.h"
-#include "str.h"
+#include "Custom.h"
+#include "Compiler.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
 
 #include "Cfs.h"
 #include "Tim.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Slp.h"
 #include "Usb.h"
-#include "log.h"
-#include "pdu.h"
+#include "Log.h"
+#include "Pdu.h"
 #include "Ana.h"
 #include "Dig.h"
-#include "cmd.h"
-#include "msg.h"
-#include "com.h"
-#include "pwr.h"
+#include "Cmd.h"
+#include "Msg.h"
+#include "Com.h"
+#include "Pwr.h"
 
 #define extern
 #include "Mdm.h"

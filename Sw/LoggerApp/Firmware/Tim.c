@@ -6,8 +6,8 @@
 **			T5 = function timing, for debug only
 */
 
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "Sns.h"
 #include "HardwareProfile.h"
 

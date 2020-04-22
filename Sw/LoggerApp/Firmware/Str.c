@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <float.h>
 
-#include "custom.h"
+#include "Custom.h"
 #include "Msg.h"
 #include "MDD File System/FSIO.h"
 

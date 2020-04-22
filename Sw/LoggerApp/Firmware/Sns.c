@@ -18,16 +18,16 @@
 */
 
 #include "Custom.h"
-#include "compiler.h"
+#include "Compiler.h"
 #include "HardwareProfile.h"
-#include "tim.h"
-#include "Rtc.h"
+#include "Tim.h"
+#include "rtc.h"
 #include "Dig.h"
 #include "Ana.h"
-#include "log.h"
+#include "Log.h"
 
 #define extern
-#include "sns.h"
+#include "Sns.h"
 #undef extern
 
 // Commands: (upper nibble = command, lower = parameter)

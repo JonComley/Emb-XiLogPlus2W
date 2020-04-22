@@ -30,21 +30,21 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "MDD File System/FSIO.h"
 
 #define extern
 #include "Msg.h"
 #undef extern
 
-#include "mdm.h"
-#include "cfs.h"
-#include "Rtc.h"
+#include "Mdm.h"
+#include "Cfs.h"
+#include "rtc.h"
 #include "Com.h"
 #include "Str.h"
 #include "usb.h"
-#include "log.h"
+#include "Log.h"
 
 #define MSG_MAX_OUTBOX_SIZE		20		// files
 

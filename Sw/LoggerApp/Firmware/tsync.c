@@ -23,24 +23,24 @@
 
 #include <string.h>
 #include <stdio.h>
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
 #include "HardwareProfile.h"
 #include "Str.h"
-#include "Rtc.h"
+#include "rtc.h"
 //#include "usb.h"
-#include "msg.h"
+#include "Msg.h"
 #include "Com.h"
 #include "Mdm.h"
 #include "Cop.h"
 #include "gps.h"
 #include "Log.h"
-#include "Alm.h"
+#include "alm.h"
 #include "Ana.h"
 #include "Dig.h"
-#include "Ftp.h"
+#include "ftp.h"
 //#include "Mag.h"
 
 #define extern
@@ -390,7 +390,7 @@ The implementation of the clock correction must be as follows:
 2.	Divide this difference in seconds by 22 to get the number of days over which the correction will be applied. 
 	Compute the adjustment which will be required each day, e.g. 38 seconds over 2 days will require 19 seconds adjustment each day.
 3.	At the next midnight boundary, calculate the value required for CAL, and write it to the RCFGCAL register. 
-	NB the register can only be written when the RTCC is stopped, or “immediately after a second boundary”.
+	NB the register can only be written when the RTCC is stopped, or ï¿½immediately after a second boundaryï¿½.
 4.	Execute the correction over the required number of days, and reset CAL to 0 when the correction is complete.
 
 The correction state machine should be terminated and the CAL value reset to 0 whenever the clock is set via a #DT command.

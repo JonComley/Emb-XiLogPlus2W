@@ -47,7 +47,7 @@ float powf(float x, float y) {return 0.0;}
 
 #include "HardwareProfile.h"
 
-#include "Rtc.h"
+#include rtc.h"
 #include "Cfs.h"
 #include "Mdm.h"
 #include "Tim.h"
@@ -61,7 +61,7 @@ float powf(float x, float y) {return 0.0;}
 #include "Dig.h"
 #include "Ana.h"
 #include "Slp.h"
-#include "pdu.h"
+#include "Pdu.h"
 #include "Cmd.h"
 #include "ftp.h"
 #include "alm.h"

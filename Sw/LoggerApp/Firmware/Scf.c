@@ -11,24 +11,24 @@
 
 #include <string.h>
 #include <stdio.h>
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
 
-#include "cfs.h"
-#include "str.h"
+#include "Cfs.h"
+#include "Str.h"
 #include "Msg.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Com.h"
-#include "pdu.h"
+#include "Pdu.h"
 #include "Ana.h"
 #include "Dig.h"
-#include "cmd.h"
+#include "Cmd.h"
 #include "usb.h"
 
 #define extern
-#include "scf.h"
+#include "Scf.h"
 #undef extern
 
 int scf_size;

@@ -63,14 +63,14 @@
 
 #include <float.h>
 
-#include "custom.h"
-#include "compiler.h" 
-#include "str.h"
+#include "Custom.h"
+#include "Compiler.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "MDD File System/FSIO.h"
-#include "cfs.h"
+#include "Cfs.h"
 #include "Msg.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "tsync.h"
 #include "Com.h"
 #include "usb.h"
@@ -84,7 +84,7 @@
 #define extern
 #include "Pdu.h"
 #undef extern
-#include "cmd.h"
+#include "Cmd.h"
 
 #ifndef HDW_PRIMELOG_PLUS
 

@@ -126,8 +126,8 @@
 ** V3.32 201113 PB  return com_day_bcd = RTC_now.day_bcd to com_new_day_task()
 */
 
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
 
@@ -136,10 +136,10 @@
 #include "Cfs.h"
 #include "Tim.h"
 #include "Str.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Log.h"
 #include "usb.h"
-#include "pdu.h"
+#include "Pdu.h"
 #include "Ana.h"
 #include "Dig.h"
 #include "Cmd.h"
@@ -151,7 +151,7 @@
 #include "tsync.h"
 
 #define extern
-#include "com.h"
+#include "Com.h"
 #undef extern
 
 #define COM_NO_CARRIER_TIMEOUT_X20MS	(60 * 50)

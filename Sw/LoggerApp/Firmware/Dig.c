@@ -68,28 +68,28 @@
 #include <math.h>
 #include <float.h>
 
-#include "custom.h"
-#include "compiler.h"
-#include "str.h"
+#include "Custom.h"
+#include "Compiler.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "Sns.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Log.h"
 #include "Tim.h"
 #include "Cal.h"
 #include "Pdu.h"
-#include "Alm.h"
+#include "alm.h"
 #include "Slp.h"
 #include "Msg.h"
 #include "Com.h"
 #include "MDD File System/FSIO.h"
 #include "Cfs.h"
 #include "ftp.h"
-#include "cop.h"
+#include "Cop.h"
 #include "gps.h"
 
 #define extern
-#include "dig.h"
+#include "Dig.h"
 #undef extern
 
 #ifndef HDW_RS485
