@@ -58,13 +58,18 @@
 ********************************************************************/
 
 #include "Custom.h"
-#include "MDD File System\FSIO.h"
+//#include FSIO.h"
+#include ".\Include\MDD File System\FSIO.h"
+//\home\temp\eclipse-workspace\Emb-XiLogPlus2W\Sw\LoggerApp\Microchip\Include\MDD File System\
+
+//#include "/home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Microchip/Include/MDD\ File\ System/FSIO.h"
 #include "GenericTypeDefs.h"
 #include "string.h"
 #include "stdlib.h"
 #include "ctype.h"
-#include "FSConfig.h"
-#include "MDD File System\FSDefs.h"
+#include "FSconfig.h"
+#include "FSDefs.h"
+//#include "MDD File System\FSDefs.h"
 
 #ifdef ALLOW_FSFPRINTF
 #include "stdarg.h"
