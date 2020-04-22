@@ -26,7 +26,7 @@
 #include "Custom.h"
 #include "usb_config.h"		// Code compiles without this, but does not work!
 
-#include <p24fxxxx.h>
+#include <p24Fxxxx.h>
 #ifdef WIN32
 #define Sleep()
 #define Nop()
