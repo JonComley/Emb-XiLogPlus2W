@@ -19,7 +19,7 @@
 #endif
 
 #define extern
-#include "Rtc.h"
+#include "rtc.h"
 #undef extern
 
 #include "Log.h"
