@@ -43,7 +43,7 @@
 
 #include <float.h>
 
-#include "custom.h"
+#include "Custom.h"
 #include "compiler.h"
 #include "math.h"
 #include "MDD File System/SD-SPI.h"
