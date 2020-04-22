@@ -13,6 +13,7 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Sw \
 Sw/LoggerApp/Firmware \
 Sw/LoggerApp/Firmware/Objects \
 Sw/LoggerApp/Microchip/MDD\ File\ System \

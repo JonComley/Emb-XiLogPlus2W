@@ -39,7 +39,7 @@
                             							
                             <builder buildPath="${workspace_loc:/Eclipse_XiLogPlus2W}/Debug" id="cdt.managedbuild.builder.gnu.cross.627937120" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
                             							
-                            <tool command="gcc -m32 -std=c99 " id="cdt.managedbuild.tool.gnu.cross.c.compiler.1644420574" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+                            <tool command="gcc -m32" id="cdt.managedbuild.tool.gnu.cross.c.compiler.1644420574" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
                                 								
                                 <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.736538033" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
@@ -93,7 +93,7 @@
                                 							
                             </tool>
                             							
-                            <tool command="gcc -m32 -std=c99 " id="cdt.managedbuild.tool.gnu.cross.c.linker.1599507489" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+                            <tool command="gcc -m32" id="cdt.managedbuild.tool.gnu.cross.c.linker.1599507489" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1832943737" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
                                     									

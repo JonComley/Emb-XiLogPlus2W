@@ -12,6 +12,7 @@ RM := rm -rf
 -include Sw/LoggerApp/Microchip/MDD\ File\ System/subdir.mk
 -include Sw/LoggerApp/Firmware/Objects/subdir.mk
 -include Sw/LoggerApp/Firmware/subdir.mk
+-include Sw/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -32,7 +33,7 @@ all: Eclipse_XiLogPlus2W
 Eclipse_XiLogPlus2W: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross GCC Linker'
-	gcc -m32 -std=c99  -o "Eclipse_XiLogPlus2W" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -m32  -o "Eclipse_XiLogPlus2W" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
