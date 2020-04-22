@@ -20,23 +20,23 @@
 
 #include <string.h>
 #include "Custom.h"
-#include "compiler.h"
+#include "Compiler.h"
 #include "Tim.h"
 #include "Str.h"
 #include "Msg.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Com.h"
-#include "pdu.h"
+#include "Pdu.h"
 #include "Ana.h"
 #include "Dig.h"
 #include "Cmd.h"
 #include "Slp.h"
-#include "log.h"
+#include "Log.h"
 
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
 #include "usb_config.h"
-#include "USB/usb_device.h"
+#include "Usb/usb_device.h"
 
 #define extern
 #include "Cfs.h"
