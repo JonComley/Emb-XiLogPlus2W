@@ -47,7 +47,7 @@ float powf(float x, float y) {return 0.0;}
 
 #include "HardwareProfile.h"
 
-#include rtc.h"
+#include "rtc.h"
 #include "Cfs.h"
 #include "Mdm.h"
 #include "Tim.h"

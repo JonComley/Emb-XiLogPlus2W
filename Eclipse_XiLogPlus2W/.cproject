@@ -77,12 +77,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="__PIC24F__"/>
                                     									
-                                    <listOptionValue builtIn="false" value="_CONFIG3"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="_CONFIG2"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="_CONFIG1"/>
-                                    									
                                     <listOptionValue builtIn="false" value="__PIC24FJ256GB110__"/>
                                     									
                                     <listOptionValue builtIn="false" value="__C30__"/>
@@ -233,6 +227,12 @@
         	
     </storageModule>
     	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="refreshScope"/>
+    	
     <storageModule moduleId="scannerConfiguration">
         		
         <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
@@ -248,13 +248,13 @@
             <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
             		
         </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.1803593423;cdt.managedbuild.config.gnu.cross.exe.debug.1803593423.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.847199670;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.279697070">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
         	
     </storageModule>
-    	
-    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-    	
-    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
-    	
-    <storageModule moduleId="refreshScope"/>
     
 </cproject>

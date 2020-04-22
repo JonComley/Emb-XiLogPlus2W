@@ -155,14 +155,15 @@ typedef unsigned char bit;
 #define near
 #define far
 
+bool USB_echo;
 typedef unsigned char bit;
 
 #define __attribute__(X)
 #define __extension__
-#define Nop()
-#define ClrWdt()
-#define Sleep()
-#define Idle()
+//#define Nop()
+//#define ClrWdt()
+//#define Sleep()
+//#define Idle()
 #define asm(X)
 #define asm_volatile(X)
 #define __builtin_write_OSCCONH(X)
@@ -175,7 +176,7 @@ typedef unsigned char bit;
 //#define __PIC24FJ256GB110__
 //#define __C30__
 
-#define __FLT_MAX__		3.402823e+38f
+//#define __FLT_MAX__		3.402823e+38f
 #else	// PIC
 
 #define asm_volatile(X)		asm volatile(X)

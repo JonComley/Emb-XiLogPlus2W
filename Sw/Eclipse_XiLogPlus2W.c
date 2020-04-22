@@ -16,7 +16,6 @@
  ============================================================================
  */
 #ifdef ECLIPSE
-bool USB_echo;
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -171,10 +170,16 @@ void PC_sleep(int x)
 //
 // Notes:
 //
-void __builtin_nop(void)
+//void __builtin_nop(void)
+//{
+//}
+//void __builtin_pwrsav(int i)
+//{
+//}
+void nop(void)
 {
 }
-void __builtin_pwrsav(int i)
+void pwrsav(int i)
 {
 }
 int main(void)
