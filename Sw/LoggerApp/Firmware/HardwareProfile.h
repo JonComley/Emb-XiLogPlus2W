@@ -25,8 +25,13 @@
 
 #include "Custom.h"
 #include "usb_config.h"		// Code compiles without this, but does not work!
-
+#ifdef ECLIPSE
+#define extern
 #include <p24Fxxxx.h>
+#undef extern
+#elif
+#include <p24Fxxxx.h>
+#endif
 #ifdef WIN32
 #define Sleep()
 #define Nop()

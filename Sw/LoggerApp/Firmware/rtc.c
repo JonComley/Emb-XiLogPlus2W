@@ -12,7 +12,13 @@
 
 #include "Custom.h"
 #include "Compiler.h"
+#ifdef ECLIPSE
+#define extern
 #include <p24Fxxxx.h>
+#undef extern
+#elif
+#include <p24Fxxxx.h>
+#endif
 #include <string.h>
 #ifdef WIN32
 #define Nop()

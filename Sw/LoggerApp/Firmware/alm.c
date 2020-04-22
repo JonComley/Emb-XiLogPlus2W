@@ -61,24 +61,24 @@
 
 #include <float.h>
 
-#include "custom.h"
-#include "compiler.h"
-#include "str.h"
+#include "Custom.h"
+#include "Compiler.h"
+#include "Str.h"
 #include "HardwareProfile.h"
 #include "MDD File System/FSIO.h"
-#include "cfs.h"
+#include "Cfs.h"
 #include "Msg.h"
 #include "usb.h"
-#include "Rtc.h"
+#include "rtc.h"
 #include "Log.h"
 #include "Ana.h"
 #include "Dig.h"
 #include "Dop.h"
 #include "Pdu.h"
 #include "ftp.h"
-#include "cmd.h"
-#include "com.h"
-#include "slp.h"
+#include "Cmd.h"
+#include "Com.h"
+#include "Slp.h"
 #include "Scf.h"
 
 #define extern

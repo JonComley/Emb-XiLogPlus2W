@@ -63,7 +63,13 @@
 	#endif
 #elif defined(__PIC24F__)	// Microchip C30 compiler
 	// PIC24F processor
-	#include <p24Fxxxx.h>
+#ifdef ECLIPSE
+#define extern
+#include <p24Fxxxx.h>
+#undef extern
+#elif
+#include <p24Fxxxx.h>
+#endif
 #elif defined(__PIC24H__)	// Microchip C30 compiler
 	// PIC24H processor
 	#include <p24Hxxxx.h>
