@@ -19,21 +19,21 @@
 */
 
 #include <stdio.h>
-#include "custom.h"
-#include "compiler.h"
+#include "Custom.h"
+#include "Compiler.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
 
-#include "cfs.h"
-#include "str.h"
+#include "Cfs.h"
+#include "Str.h"
 #include "rtc.h"
-#include "ana.h"
-#include "usb.h"
-#include "log.h"
-#include "pwr.h"
+#include "Ana.h"
+#include "Usb.h"
+#include "Log.h"
+#include "Pwr.h"
 
 #define extern
-#include "cal.h"
+#include "Cal.h"
 #undef extern
 
 const char cal_no_data[] = "<NO DATA>";
