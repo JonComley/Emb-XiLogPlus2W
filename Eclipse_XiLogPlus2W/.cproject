@@ -56,12 +56,16 @@
                                     <listOptionValue builtIn="false" value="/opt/microchip/xc16/v1.36/support/PIC24F/h"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/Usb}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/microchip/xc16/v1.36/support/PIC24F/gld"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.1377014228" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
                                     									
                                     <listOptionValue builtIn="false" value="__PIC24F__"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="__PIC24FJ256GB110__"/>
                                     									
                                     <listOptionValue builtIn="false" value="__C30__"/>
                                     									
