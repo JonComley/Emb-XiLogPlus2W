@@ -46,7 +46,7 @@
 
 #include "usb_config.h"
 #include "Usb/usb_device.h"                         // Required
-#include "Usb/USB.h"
+#include "Usb/usb.h"
 #include "MDD File System/FSIO.h"
 
 #define extern
