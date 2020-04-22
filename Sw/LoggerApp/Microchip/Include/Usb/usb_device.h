@@ -14,7 +14,7 @@ that occur on the bus.
  Dependencies:	See INCLUDES section
  Processor:		PIC18 or PIC24 USB Microcontrollers
  Hardware:		The code is natively intended to be used on the following
- 				hardware platforms: PICDEM™ FS USB Demo Board, 
+ 				hardware platforms: PICDEMï¿½ FS USB Demo Board, 
  				PIC18F87J50 FS USB Plug-In Module, or
  				Explorer 16 + PIC24 USB PIM.  The firmware may be
  				modified for use on other USB platforms by editing the
@@ -25,8 +25,8 @@ that occur on the bus.
  Software License Agreement:
 
  The software supplied herewith by Microchip Technology Incorporated
- (the “Company”) for its PIC® Microcontroller is intended and
- supplied to you, the Company’s customer, for use solely and
+ (the ï¿½Companyï¿½) for its PICï¿½ Microcontroller is intended and
+ supplied to you, the Companyï¿½s customer, for use solely and
  exclusively on Microchip PIC Microcontroller products. The
  software is owned by the Company and/or its supplier, and is
  protected under applicable copyright laws. All rights are reserved.
@@ -35,7 +35,7 @@ that occur on the bus.
  civil liability for the breach of the terms and conditions of this
  license.
 
- THIS SOFTWARE IS PROVIDED IN AN “AS IS” CONDITION. NO WARRANTIES,
+ THIS SOFTWARE IS PROVIDED IN AN ï¿½AS ISï¿½ CONDITION. NO WARRANTIES,
  WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
  TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
  PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
@@ -57,9 +57,13 @@ that occur on the bus.
 #define USBDEVICE_H
 //DOM-IGNORE-END
 
-
-#include "USB\usb_ch9.h"
-#include "USB\usb_hal.h"
+#ifndef ECLIPSE
+#include "Usb\usb_ch9.h"
+#include "Usb\usb_hal.h"
+#elif
+#include "Usb\usb_ch9.h"
+#include "Usb\usb_hal.h"
+#endif
 #include "usb_config.h" //This file needs to be included after the 
                         //  usb_hal.h file to insure that the user
                         //  options are selected after the defines
