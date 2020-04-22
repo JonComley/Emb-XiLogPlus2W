@@ -23,7 +23,7 @@
 #undef extern
 
 #include "Log.h"
-#include "mdm.h"
+#include "Mdm.h"
 
 #define RTC_BCD_TO_VALUE(X)	((((X) >> 4) * 10) + ((X) & 0x0F))
 
