@@ -131,7 +131,7 @@ int process_keypress(void)
 
 	return true;
 }
-#define uint64_t uint32;
+typedef unsigned long uint64_t;
 /// Returns the number of ticks since an undefined time (usually system startup).
 static uint64_t GetTickCountMs()
 {
