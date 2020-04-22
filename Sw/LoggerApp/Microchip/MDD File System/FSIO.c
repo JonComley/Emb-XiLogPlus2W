@@ -157,7 +157,9 @@ DWORD	gLastFreeCluster;			// Added by MA May 2014
 #endif
 
 #ifndef WIN32
+#ifndef ECLIPSE
 #pragma udata
+#endif
 #endif
 
 DISK gDiskData;         // Global structure containing device information.

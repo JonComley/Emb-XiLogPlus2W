@@ -42,9 +42,7 @@
 #include "./Usb/usb_device.h"
 #include "HardwareProfile.h"
 #include "usb_config.h"
-#ifdef ECLIPSE
-#include "usb_hal_pic24.h"
-#endif
+
 #if defined(USB_USE_MSD)
     #include "usb_function_msd.h"
 #endif
@@ -135,9 +133,10 @@ volatile BYTE CtrlTrfData[USB_EP0_BUFF_SIZE];
 
 /** DECLARATIONS ***************************************************/
 #ifndef WIN32
+#ifndef ECLIPSE
 #pragma code
 #endif
-
+#endif
 //DOM-IGNORE-BEGIN
 /****************************************************************************
   Function:

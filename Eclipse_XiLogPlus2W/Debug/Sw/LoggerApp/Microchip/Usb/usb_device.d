@@ -19,8 +19,7 @@ Sw/LoggerApp/Microchip/Usb/usb_device.o: \
  /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Microchip/Include/./Usb/usb_device.h \
  /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/HardwareProfile.h \
  /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/Custom.h \
- /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/usb_config.h \
- /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Microchip/Include/Usb/usb_hal_pic24.h
+ /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/usb_config.h
 
 /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/Custom.h:
 
@@ -61,5 +60,3 @@ Sw/LoggerApp/Microchip/Usb/usb_device.o: \
 /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/Custom.h:
 
 /home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware/usb_config.h:
-
-/home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Microchip/Include/Usb/usb_hal_pic24.h:
