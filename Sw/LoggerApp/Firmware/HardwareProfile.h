@@ -23,7 +23,7 @@
 #ifndef HARDWARE_PROFILE_H
 #define HARDWARE_PROFILE_H
 
-#include "custom.h"
+#include "Custom.h"
 #include "usb_config.h"		// Code compiles without this, but does not work!
 
 #include <p24fxxxx.h>
