@@ -532,7 +532,11 @@ BOOL USBHALInitialize ( unsigned long flags );
     #if defined(__18CXX)
         #include "USB\usb_hal_pic18.h"
     #elif defined(__C30__)
+		#ifdef ECLIPSE
+		#include "usb_hal_pic24.h"
+		#elif
         #include "Usb\usb_hal_pic24.h"
+		#endif
     #endif
 #endif  // defined(USB_SUPPORT_HOST) || defined(USB_SUPORT_OTG)
 #endif  // _USB_HAL_H_
