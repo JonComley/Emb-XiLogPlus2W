@@ -57,12 +57,12 @@ that occur on the bus.
 #define USBDEVICE_H
 //DOM-IGNORE-END
 
-#ifndef ECLIPSE
-#include "Usb\usb_ch9.h"
-#include "Usb\usb_hal.h"
-#elif
+#ifdef ECLIPSE
 #include "usb_ch9.h"
 #include "usb_hal.h"
+#elif
+#include "Usb\usb_ch9.h"
+#include "Usb\usb_hal.h"
 #endif
 #include "usb_config.h" //This file needs to be included after the 
                         //  usb_hal.h file to insure that the user
