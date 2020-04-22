@@ -11,8 +11,8 @@
  */
 
 #include "Custom.h"
-#include "compiler.h"
-#include <p24fxxxx.h>
+#include "Compiler.h"
+#include <p24Fxxxx.h>
 #include <string.h>
 #ifdef WIN32
 #define Nop()
