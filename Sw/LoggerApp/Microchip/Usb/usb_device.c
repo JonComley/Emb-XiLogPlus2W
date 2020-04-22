@@ -42,7 +42,9 @@
 #include "./Usb/usb_device.h"
 #include "HardwareProfile.h"
 #include "usb_config.h"
-
+#ifdef ECLIPSE
+#include "usb_hal_pic24.h"
+#endif
 #if defined(USB_USE_MSD)
     #include "usb_function_msd.h"
 #endif

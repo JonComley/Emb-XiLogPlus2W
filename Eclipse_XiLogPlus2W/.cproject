@@ -63,6 +63,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="__PIC24F__"/>
                                     									
+                                    <listOptionValue builtIn="false" value="__C30__"/>
+                                    									
                                     <listOptionValue builtIn="false" value="ECLIPSE"/>
                                     								
                                 </option>
