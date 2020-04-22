@@ -30,7 +30,7 @@ all: XiLogPlus2W
 XiLogPlus2W: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross GCC Linker'
-	gcc  -o "XiLogPlus2W" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -m32  -o "XiLogPlus2W" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

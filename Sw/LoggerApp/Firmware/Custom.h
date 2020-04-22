@@ -37,7 +37,10 @@ typedef long long int64;
 
 #define int8_t int8
 #define int16_t int16
+
+#ifndef ECLIPSE
 #define int32_t int32
+#endif
 
 typedef union
 {

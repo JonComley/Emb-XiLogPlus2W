@@ -39,7 +39,7 @@
                             							
                             <builder buildPath="${workspace_loc:/XiLogPlus2W}/Debug" id="cdt.managedbuild.builder.gnu.cross.1069286555" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
                             							
-                            <tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.607931387" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+                            <tool command="gcc -m32 " id="cdt.managedbuild.tool.gnu.cross.c.compiler.607931387" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
                                 								
                                 <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.644783844" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
                                 								
@@ -48,14 +48,24 @@
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.398041582" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="/home/temp/eclipse-workspace/Emb-XiLogPlus2W/Sw/LoggerApp/Microchip/Include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Firmware}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/microchip/xc16/v1.36/support/PIC24F/h"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/microchip/xc16/v1.36/support/PIC24F/gld"/>
                                     								
                                 </option>
                                 								
-                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.1661929782" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.1661929782" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
                                     									
                                     <listOptionValue builtIn="false" value="__PIC24F__"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="ECLIPSE"/>
                                     								
                                 </option>
+                                								
+                                <option id="gnu.c.compiler.option.misc.other.624156831" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0" valueType="string"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1591048553" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
                                 							
@@ -69,7 +79,9 @@
                                 							
                             </tool>
                             							
-                            <tool id="cdt.managedbuild.tool.gnu.cross.c.linker.849409717" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+                            <tool command="gcc -m32 " id="cdt.managedbuild.tool.gnu.cross.c.linker.849409717" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+                                								
+                                <option id="gnu.c.link.option.ldflags.133151366" name="Linker flags" superClass="gnu.c.link.option.ldflags" useByScannerDiscovery="false" value="" valueType="string"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.linker.input.76401415" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
                                     									
