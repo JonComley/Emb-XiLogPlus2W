@@ -42,7 +42,11 @@
 ** V4.11 270814 PB  Add CFS_gps_name "GPS.TXT"
 */
 
+#ifdef ECLIPSE
+#include "FSDefs.h"
+#elif
 #include "MDD File System\FSDefs.h"
+#endif
 
 // Filename 8.3 + '\0'
 #define CFS_FILE_NAME_SIZE	13

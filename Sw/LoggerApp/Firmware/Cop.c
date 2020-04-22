@@ -20,6 +20,8 @@
 **				   add COP_value_to_string() to decode value to letters when logging event
 **
 ** V3.33 251113 PB change in enqueueing control output logs
+			sprintf(cop_filename_str, "ALARM_CONTROL%05d.TXT", cop_ftp_msg_index);
+			MSG_send(MSG_TYPE_FTP_MSG, STR_buffer,  cop_filename_str);
 **
 ** V4.02 090414 PB add COP_EVENT case to COP_value_to_string()
 **				   reorganise cop_state into an array

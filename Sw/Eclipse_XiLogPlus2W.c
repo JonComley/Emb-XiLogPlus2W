@@ -16,6 +16,7 @@
  ============================================================================
  */
 #ifdef ECLIPSE
+bool USB_echo;
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -36,6 +37,10 @@ typedef unsigned long DWORD;
 
 //#include "Sch.h"
 //#include "Dbg.h"
+//#define __attribute__(x, y, z)
+//#define far	unsigned long
+//#define sfr unsigned long
+//#include "Compiler.h"
 
 int app_main(void);
 #define app_main(x) main(x)

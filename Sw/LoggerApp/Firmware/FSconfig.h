@@ -39,7 +39,11 @@
 #define SUPPORT_FAT32
 
 #include "HardwareProfile.h"
+#ifdef ECLIPSE
+#include "FSDefs.h"
+#elif
 #include "MDD File System\FSDefs.h"
+#endif
 //#include "FSDefs.h"
 
 /***************************************************************************/

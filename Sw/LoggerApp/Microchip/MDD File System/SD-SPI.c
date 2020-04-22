@@ -44,9 +44,16 @@
 
 #include "Custom.h"
 #include "GenericTypeDefs.h"
+#ifdef ECLIPSE
+#include "FSIO.h"
+#include "FSDefs.h"
+#include "SD-SPI.h"
+#elif
 #include "MDD File System\FSIO.h"
 #include "MDD File System\FSDefs.h"
 #include "MDD File System\SD-SPI.h"
+
+#endif
 #include "string.h"
 #include "FSconfig.h"
 #include "HardwareProfile.h"
