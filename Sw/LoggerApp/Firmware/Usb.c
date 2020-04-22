@@ -45,8 +45,8 @@
 #include "alm.h"
 
 #include "usb_config.h"
-#include "USB/usb_device.h"                         // Required
-#include "USB/USB.h"
+#include "Usb/usb_device.h"                         // Required
+#include "Usb/USB.h"
 #include "MDD File System/FSIO.h"
 
 #define extern
