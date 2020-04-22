@@ -51,9 +51,10 @@
 
 /** VARIABLES ******************************************************/
 #ifndef WIN32
+#ifndef ECLIPSE
 #pragma udata
 #endif
-
+#endif
 USB_VOLATILE BYTE USBDeviceState;
 USB_VOLATILE BYTE USBActiveConfiguration;
 USB_VOLATILE BYTE USBAlternateInterface[USB_MAX_NUM_INT];

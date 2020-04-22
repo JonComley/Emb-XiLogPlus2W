@@ -65,13 +65,17 @@
 #define USB_NUM_ACTIONS			4
 
 #ifndef WIN32
+#ifndef ECLIPSE
 #pragma udata USB_VARS
+#endif
 #endif
 FAR char usb_rx_buffer[256];
 FAR char usb_tx_buffer[512];
 
 #ifndef WIN32
+#ifndef ECLIPSE
 #pragma udata
+#endif
 #endif
 
 BITFIELD usb_flags;
