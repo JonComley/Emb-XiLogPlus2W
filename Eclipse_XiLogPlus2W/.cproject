@@ -54,6 +54,10 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/MDD File System}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/Usb}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/support}&quot;"/>
                                     								
                                 </option>
                                 								
