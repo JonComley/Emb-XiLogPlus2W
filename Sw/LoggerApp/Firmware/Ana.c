@@ -44,7 +44,7 @@
 #include <float.h>
 
 #include "Custom.h"
-#include "compiler.h"
+#include "Compiler.h"
 #include "math.h"
 #include "MDD File System/SD-SPI.h"
 #include "MDD File System/FSIO.h"
