@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include MDD\ File\ System/subdir.mk
 -include Firmware/Objects/subdir.mk
 -include Firmware/subdir.mk
 -include subdir.mk

@@ -15,4 +15,5 @@ C_DEPS :=
 SUBDIRS := \
 Firmware \
 Firmware/Objects \
+MDD\ File\ System \
 

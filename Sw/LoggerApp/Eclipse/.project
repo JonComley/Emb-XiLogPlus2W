@@ -29,5 +29,10 @@
 			<type>2</type>
 			<locationURI>$%7BWORKSPACE_LOC%7D/Emb-XiLogPlus2W/Sw/LoggerApp/Firmware</locationURI>
 		</link>
+		<link>
+			<name>MDD File System</name>
+			<type>2</type>
+			<locationURI>WORKSPACE_LOC/Emb-XiLogPlus2W/Sw/LoggerApp/Microchip/MDD%20File%20System</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
