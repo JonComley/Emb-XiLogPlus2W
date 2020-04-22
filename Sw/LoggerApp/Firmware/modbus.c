@@ -348,7 +348,7 @@ void MOD_task(void)
 				else
 				{
 					// special case bitfield channel
-					uint32_t bits = 0;
+					uint32 bits = 0;
 					bits = mod_rx_buffer_AT[3 + (MOD_ADDR_PRESSURE_ALARMS*2)] & 0x1F;						// +5
 					bits |= ((uint32)mod_rx_buffer_AT[3 + (MOD_ADDR_TEMP_ALARMS*2)] & 0x1F) << 5;			// +5
 					bits |= ((uint32)mod_rx_buffer_AT[3 + (MOD_ADDR_ERROR_WARNINGS*2)] & 0x1F) << 10;		// +5
