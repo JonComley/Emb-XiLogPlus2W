@@ -138,7 +138,7 @@
 #include "Str.h"
 #include "rtc.h"
 #include "Log.h"
-#include "usb.h"
+#include "Usb.h"
 #include "Pdu.h"
 #include "Ana.h"
 #include "Dig.h"

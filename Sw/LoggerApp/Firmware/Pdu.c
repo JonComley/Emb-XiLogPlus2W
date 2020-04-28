@@ -73,7 +73,7 @@
 #include "rtc.h"
 #include "tsync.h"
 #include "Com.h"
-#include "usb.h"
+#include "Usb.h"
 #include "Log.h"
 #include "Ana.h"
 #include "Dig.h"

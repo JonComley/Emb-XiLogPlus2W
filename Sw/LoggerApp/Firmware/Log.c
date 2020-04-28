@@ -100,7 +100,7 @@
 #include "alm.h"
 #include "Mdm.h"
 #include "Cmd.h"
-#include "usb.h"
+#include "Usb.h"
 #include "Cal.h"
 #include "Ser.h"
 #include "Dop.h"

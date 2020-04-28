@@ -25,7 +25,7 @@
 #include "Ana.h"
 #include "Dig.h"
 #include "Cmd.h"
-#include "usb.h"
+#include "Usb.h"
 
 #define extern
 #include "Scf.h"

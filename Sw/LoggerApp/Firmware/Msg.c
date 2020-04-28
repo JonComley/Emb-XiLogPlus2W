@@ -43,7 +43,7 @@
 #include "rtc.h"
 #include "Com.h"
 #include "Str.h"
-#include "usb.h"
+#include "Usb.h"
 #include "Log.h"
 
 #define MSG_MAX_OUTBOX_SIZE		20		// files

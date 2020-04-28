@@ -34,7 +34,7 @@
 #include "rtc.h"
 #include "Msg.h"
 #include "Com.h"
-#include "usb.h"
+#include "Usb.h"
 #include "Log.h"
 
 #define extern

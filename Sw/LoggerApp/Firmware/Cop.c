@@ -53,7 +53,7 @@
 #include "ftp.h"
 #include "alm.h"
 #include "Pdu.h"
-#include "usb.h"
+#include "Usb.h"
 
 #define extern
 #include "Cop.h"

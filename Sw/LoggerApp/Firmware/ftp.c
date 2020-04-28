@@ -28,7 +28,7 @@
 #include "MDD File System/FSIO.h"
 #include "Cfs.h"
 #include "Msg.h"
-#include "usb.h"
+#include "Usb.h"
 #include "rtc.h"
 #include "Com.h"
 #include "Log.h"
