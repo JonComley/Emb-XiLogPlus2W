@@ -174,7 +174,7 @@
 #include "Sns.h"
 #include "Cal.h"
 #include "Dig.h"
-#include "usb.h"
+#include "Usb.h"
 #include "Pdu.h"
 #include "ftp.h"
 #include "Ana.h"
