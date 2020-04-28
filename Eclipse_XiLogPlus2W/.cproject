@@ -61,11 +61,11 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Sw}&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/MDD File System}&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Firmware}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/MDD File System}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/Usb}&quot;"/>
                                     									
