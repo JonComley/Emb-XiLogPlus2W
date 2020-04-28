@@ -280,8 +280,8 @@ void SLP_task(void)
 
 	PWR_drive_debug_led(false);
 
-	Sleep();
-	Nop();
+//	Sleep();
+//	Nop();
 
 	PWR_drive_debug_led(true);
 
