@@ -105,7 +105,6 @@
 #include "Ser.h"
 #include "Dop.h"
 #include "Cop.h"
-#include "usb.h"
 #include "gps.h"
 #include "modbus.h"
 
