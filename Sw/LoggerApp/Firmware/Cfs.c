@@ -128,7 +128,9 @@ bool cfs_init_sd_card(void)
 	// If the following is true, when we enter CFS_sd_card_ready, assume it's an HC.
 	// Commands we execute then may reveal that it is in fact non-HC.
     if (((response.r7.bytewise._returnVal & 0xFFF) == 0x1AA) && (!response.r7.bitwise.bits.ILLEGAL_CMD))
+    {
        	gSDMode = SD_MODE_HC;
+    }
 
 	return true;
 }
