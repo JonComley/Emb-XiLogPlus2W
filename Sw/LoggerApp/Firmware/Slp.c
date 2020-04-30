@@ -279,7 +279,7 @@ void SLP_task(void)
 	_RTCIE = true;
 
 	PWR_drive_debug_led(false);
-#ifdef !ECLIPSE
+#ifndef ECLIPSE
 	Sleep();
 	Nop();
 #endif
