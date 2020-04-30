@@ -61,6 +61,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Sw}&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/usr/lib/gcc/x86_64-linux-gnu"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Microchip/Include/MDD File System}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Eclipse_XiLogPlus2W/Sw/LoggerApp/Firmware}&quot;"/>

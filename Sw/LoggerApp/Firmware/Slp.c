@@ -279,10 +279,10 @@ void SLP_task(void)
 	_RTCIE = true;
 
 	PWR_drive_debug_led(false);
-
-//	Sleep();
-//	Nop();
-
+#ifdef !ECLIPSE
+	Sleep();
+	Nop();
+#endif
 	PWR_drive_debug_led(true);
 
 	// if CN interrupt, could be either USB connection or modem activity
